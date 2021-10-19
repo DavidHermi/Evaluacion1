@@ -1,0 +1,30 @@
+package boletin.pkg3_2;
+
+import java.util.Scanner;
+
+
+public class Boletin3_2 {
+
+    
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+       
+       
+       
+       double C ;
+       System.out.println ("Cantidad de grados :");
+         C =sc.nextDouble();
+       
+       double K = C + 273  ;
+       
+       System.out.println("la conversion a Kelvin es=" +K);
+       
+       double F = C *1.8 +32 ;
+       
+       System.out.println("la conversion a Farenhait es=" +F);
+        
+        
+        
+    }
+    
+}
