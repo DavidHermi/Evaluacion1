@@ -1,0 +1,18 @@
+
+package boletin2_2;
+
+public class Boletin2_2 {
+
+    
+    public static void main(String[] args) {
+      
+        float lado = 3f;
+        
+        double area = (float) Math.pow(3, 2);
+        
+        System.out.println ("el area=" +area );
+        
+         
+    }
+    
+}
