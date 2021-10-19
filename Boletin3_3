@@ -1,0 +1,26 @@
+
+public class Boletin3_3 {
+
+    
+    public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in); 
+        
+        int billetes1= 100  ;
+        
+        int billetes2= 20  ;
+        
+        int billetes3= 5 ;
+        
+        int monedas= 1;
+        
+        
+        int total = (billetes1*2) + (billetes2*3) + (monedas*6)  ;
+        
+        System.out.println("El total en euros es=" +total);
+        
+        
+        
+        
+    }
+    
+}
