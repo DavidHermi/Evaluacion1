@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+
+public class Boletin2_4 {
+
+    
+    public static void main(String[] args) {
+        
+        
+        
+        Scanner sc=new Scanner(System.in);
+        
+        double num1 ;
+        double num2 ;
+        System.out.println ("escribe un numero  :");
+         num1=sc.nextDouble();
+         
+               System.out.println ("escribe un numero  :");
+         num2=sc.nextDouble();
+         
+         
+        double suma= num1 + num2;
+        double resta= num1- num2 ;
+        double producto= num1* num2 ;
+        double cociente = num1 / num2 ;
+        
+        System.out.println ("el resultado  de la suma es=" +suma+ "el resultado de la resta=" +resta+ "el resultado del producto=" +producto+ "el resultado del cociente=" +cociente);
+       
+         
+         
+        
+         
+      
+    }
+    
+}
