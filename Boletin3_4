@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+
+public class Boletin3_4 {
+
+   
+    public static void main(String[] args) {
+       
+     int dinero, n100, n20, n5, n1;
+     Scanner sc=new Scanner(System.in);   
+      System.out.println("Introduce el dinero :");
+      dinero = sc.nextInt();
+      n100 = dinero /100;
+      n20 = ((dinero % 100)/20 );
+      n5 = ((dinero % 100)%20/5);
+      n1= (((dinero %100)%20)%5) /1;
+      
+      int billetes_cien = n100 ;
+      int billetes_veinte = n20 ;
+      int billetes_cinco =n5;
+      int monedas_uno = n1;
+      
+      System.out.println("Billetes de cien :" +billetes_cien + " \n Billetes de 20 :" + billetes_veinte +"/n Billetes de cinco :" + billetes_cinco + " /n monedas de 1:" + monedas_uno  );
+       
+        
+    }
+    
+}
