@@ -1,0 +1,44 @@
+package boletin.pkg3_1;
+
+import java.util.Scanner;
+
+public class Boletin3_1 {
+
+    
+    public static void main(String[] args) {
+       
+        
+        
+        
+        Scanner sc=new Scanner(System.in);
+
+        
+        float preciotarifa ;
+        
+        System.out.println ("enseñame el precio base :");
+         preciotarifa=sc.nextFloat();
+        
+       
+        
+        float descuento = 20 ;
+        
+         float preciopagado = preciotarifa * (descuento/100) ;
+         
+         System.out.println("Enseñame el precio pagado="+preciopagado);
+         
+         
+         
+         
+         
+       
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
