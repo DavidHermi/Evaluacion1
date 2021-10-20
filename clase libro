@@ -1,0 +1,186 @@
+package boletin4_1;
+
+
+public class Libro {
+    
+ //atributos
+    
+    
+    
+    private String titulo ;
+    private String autor ;
+    private int año ;
+    private short numPaginas ;
+    private float valoracion; 
+    
+    
+    
+    
+    //Constructores
+
+    
+       
+   public Libro () {
+
+    
+}
+   
+   
+   public Libro (String ti, String aut, int añ, short numP,float val ) {
+   
+titulo= ti;
+autor= aut ;
+año= añ ;
+numPaginas= numP;
+valoracion= val;
+ 
+   
+   
+   
+   
+}
+
+    
+     //metodos de acceso //
+   
+   
+   
+   public void settitulo (String ti) {
+   
+titulo=ti ;
+
+   
+   
+   }
+    
+public String gettitulo (){
+
+   return titulo ;
+   
+
+}
+    
+   
+
+   public void setautor(String aut) {
+   
+autor=aut ;
+
+   
+   
+   }
+    
+public String getautor (){
+
+   return autor ;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+   public void setaño (int añ) {
+   
+año=añ ;
+
+   
+   
+   }
+    
+public int getaño (){
+
+   return año ;
+   
+
+}
+
+
+public void setnumPaginas (short numP) {
+
+numPaginas=numP;
+
+
+
+
+}
+
+
+public short getnumPaginas () {
+
+return numPaginas ;
+
+
+
+}
+
+
+
+public void setvaloracion (float val) {
+
+    valoracion= val ;
+
+
+
+
+
+}
+
+
+public float getvaloracion ()  {
+
+
+return valoracion ;
+
+
+
+}
+
+
+
+
+
+//metodo amosar //
+
+
+public void amosar (Libro objLibro ) {
+
+
+System.out.println (
+        "el titulo es " +objLibro.gettitulo()+
+        "\n El autor es"+objLibro.getautor()+
+        "\n el año del libro es"+objLibro.getaño()+
+        "\n el numero de paginas del libro es" +objLibro.getnumPaginas()+
+        "\n la valoracion del libro es"+objLibro.getvaloracion());
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+}
+
+
+
+
+
+
