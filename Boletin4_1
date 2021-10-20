@@ -1,0 +1,23 @@
+public class Boletin4_1 {
+
+    
+    public static void main(String[] args) {
+        
+        
+        Libro objLibro = new Libro("las legiones malditas", "Santiago posteguillo", 2012 ,(short) 700, 10) ;
+        Libro objLibro1 = new Libro ();
+        
+        objLibro1.setautor("las legiones malditas");
+        objLibro1.settitulo("Santiago posteguillo");
+     
+      objLibro1.setaño(2012);
+      objLibro1.setnumPaginas((short)700);
+      objLibro.setvaloracion(10f);
+        
+        
+       objLibro.amosar(objLibro);
+        objLibro1.amosar(objLibro);
+        
+    }
+    
+}
